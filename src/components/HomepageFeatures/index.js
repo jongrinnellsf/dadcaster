@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Dadcaster NFTs',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Dad DIPs',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Dad shop',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -54,9 +54,9 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {/* {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

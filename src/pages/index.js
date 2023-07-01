@@ -12,14 +12,26 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+        <p className="big">Dadcaster</p>
+
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        
         <div className={styles.buttons}>
-          <Link
+          <div><Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+            // to="/docs/intro">
+            to="https://www.google.com">
+
+            Community hub 
+          </Link></div>
+          <div><Link
+            className="button button--secondary button--lg"
+            // to="/docs/intro">
+            to="https://www.google.com">
+
+            Community hub
+          </Link></div>
         </div>
       </div>
     </header>
@@ -30,7 +42,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
