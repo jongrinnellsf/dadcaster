@@ -21,17 +21,11 @@ function HomepageHeader() {
           <div><Link
             className="button button--secondary button--lg"
             // to="/docs/intro">
-            to="https://www.google.com">
+            to="https://app.charmverse.io/dadcaster/page-9616733840036349">
 
             Community hub 
           </Link></div>
-          <div><Link
-            className="button button--secondary button--lg"
-            // to="/docs/intro">
-            to="https://www.google.com">
 
-            Community hub
-          </Link></div>
         </div>
       </div>
     </header>
