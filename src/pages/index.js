@@ -18,22 +18,19 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         
         <div className={styles.buttons}>
+        <div><Link
+            className="button button--secondary button--lg"
+            // to="/docs/intro">
+            to="https://zora.co/collect/eth:0x6a95180c60a721e6b041a5649a77a7b46902c07f">
+🧢 Own a dad hat 
+          </Link></div>  
           <div><Link
             className="button button--secondary button--lg"
             // to="/docs/intro">
             to="https://app.charmverse.io/dadcaster/page-9616733840036349">
-
 🏘️ Visit dad's house 
           </Link></div>
-
-          <div><Link
-            className="button button--secondary button--lg"
-            // to="/docs/intro">
-            to="https://zora.co/collect/eth:0x6a95180c60a721e6b041a5649a77a7b46902c07f">
-
-🧢 Own a dad hat 
-          </Link></div>
-          
+ 
         </div>
       </div>
     </header>
