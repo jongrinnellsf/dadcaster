@@ -79,11 +79,11 @@ const config = {
           // {to: '/blog', label: 'Dad jokes', position: 'left'},
           // {to: '/my-react-page', label: 'Dad jokes', position: 'left'},
 
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://github.com/jongrinnellsf/dadcaster',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       // footer: {

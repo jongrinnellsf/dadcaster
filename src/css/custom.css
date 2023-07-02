@@ -16,7 +16,6 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); */
   font-family: 'DynaPuff', cursive;
-  /* background-color: blue; */
   --ifm-hero-background-color: black;
 }
 
@@ -44,10 +43,13 @@ div.buttons_src-pages-index-module {
 
 a.button.button--secondary.button--lg {
   margin-top: 5%;
-  /* padding: 5%; */
 }
 
 .buttons_AeoN {
   flex-direction: column;
-  /* padding: 4%; */
+}
+
+body {
+  background-color: rgb(53, 120, 229);
+  ;
 }
