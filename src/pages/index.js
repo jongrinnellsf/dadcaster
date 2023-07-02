@@ -23,7 +23,7 @@ function HomepageHeader() {
             // to="/docs/intro">
             to="https://app.charmverse.io/dadcaster/page-9616733840036349">
 
-🏘️ Dad's house community hub 
+🏘️ Visit dad's house 
           </Link></div>
 
           <div><Link
@@ -31,7 +31,7 @@ function HomepageHeader() {
             // to="/docs/intro">
             to="https://zora.co/collect/eth:0x6a95180c60a721e6b041a5649a77a7b46902c07f">
 
-🧢 Dad's hat NFT 
+🧢 Own a dad hat 
           </Link></div>
           
         </div>
