@@ -43,11 +43,11 @@ div.buttons_src-pages-index-module {
 }
 
 a.button.button--secondary.button--lg {
-  margin: 5%;
-  /* padding: 6%; */
+  margin-top: 5%;
+  /* padding: 5%; */
 }
 
 .buttons_AeoN {
   flex-direction: column;
-  padding: 4%;
+  /* padding: 4%; */
 }
