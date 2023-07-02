@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dadcaster.org',
-  tagline: 'United we dad',
+  tagline: 'In dad we trust',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
